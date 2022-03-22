@@ -1,0 +1,23 @@
+
+       	pipeline {
+
+    agent { label 'master' }
+
+    stages {
+
+        stage('build') {
+
+            steps {
+
+                echo "Hello World!"
+
+            }
+
+        }
+
+    }
+
+}
+
+System.out.println("Hello, World");
+
